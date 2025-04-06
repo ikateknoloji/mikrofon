@@ -1,12 +1,13 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
 import Navbar from './components/desktop/navbar/Navbar.vue';
+import SocialIcons from './components/desktop/social/SocialIcons.vue';
+import Footer from './components/desktop/footer/Footer.vue';
 </script>
 
 <template>
   <Navbar />
-
-  <RouterView />
+  <SocialIcons />
+  <Footer />
 </template>
 
 <style scoped>
