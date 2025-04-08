@@ -7,7 +7,6 @@ const routes = [
   { path: '/site-haritasi', name: 'sitemap', component: () => import('@/views/SitemapView.vue') },
   { path: '/blogs', name: 'blogs', component: () => import('@/views/BlogsView.vue') },
   { path: '/bize-ulasin', name: 'contact', component: () => import('@/views/ContactView.vue') },
-
   {
     path: '/urunler',
     name: 'products',
